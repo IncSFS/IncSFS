@@ -5,8 +5,8 @@ We provide a Docker image that contains all necessary benchmarks, dependencies, 
 
 ## Start
 ```
-$ docker pull annoymousforpaper/incsfsase:v1
-docker run -it -name incsfs annoymousforpaper/incsfsase:v1 /bin/bash
+$ docker pull annoymousforpaper/incsfsase:v3
+docker run -it -name incsfs annoymousforpaper/incsfsase:v3 /bin/bash
 docker exec -it incsfs /bin/bash
 ```
 
