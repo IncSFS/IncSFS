@@ -1,5 +1,5 @@
 ## Artifact
-This is artifact evaluation of Submission 604
+This is artifact evaluation of Submission 1456
 We provide a Docker image that contains all necessary benchmarks, dependencies, and executable files required to reproduce our experimental results. The image has been tested successfully on our local machine.
 
 
@@ -29,7 +29,12 @@ python3 printAllTable.py
 cd /home/script
 python3 printSILVATable.py
 ```
-### RQ3:Analysis of Consistency
+### RQ3:Trend Analysis
+```
+cd /home/script
+python3 printTrendGraph.py
+
+### RQ4:Analysis of Consistency
 ```
 cd /home/script
 python3 printNotEqual.py
@@ -50,7 +55,13 @@ cd /home/script
 ./run_silva.sh
 python3 printSILVATable.py
 ```
-### RQ3:Analysis of Consistency
+### RQ3: Trend Analysis
+```
+cd /home/script
+python3 ./run_trend.sh
+python3 printTrendGraph.py
+```
+### RQ4:Analysis of Consistency
 After running the script for RQ1, proceed to execute the following script to reproduce the result of RQ3
 ```
 cd /home/script
