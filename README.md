@@ -33,6 +33,7 @@ python3 printSILVATable.py
 ```
 cd /home/script
 python3 printTrendGraph.py
+```
 
 ### RQ4:Analysis of Consistency
 ```
